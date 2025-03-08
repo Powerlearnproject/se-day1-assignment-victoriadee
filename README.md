@@ -136,12 +136,42 @@ Follow best practices for secure coding, such as using encryption, input validat
 Regularly update libraries and software to patch security vulnerabilities.
 Perform security audits and penetration testing to identify and fix weaknesses.
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+Unit tests - are close to the source of an application, They consist in testing individual methods and functions of the classes, components, or modules used by your software.
+           - it ensures that each unit performs its intended function correctly, isolated from other components.
+Integration tests - verify that different modules or services used by your application work well together.
+                 - help to ensure data flows smoothly between modules and interfaces work as expected.
+ System testing -Focus on the entire software system as a whole, including all functionalities and interactions.
+                -It help to verify that the system meets all functional and non-functional requirements, including performance, usability, and security .
+Acceptance tests - are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. 
+                 - Whether the software meets the needs of the end-user and is ready for deployment.
 
 
 #Part 2: Introduction to AI and Prompt Engineering
 
 
 Define prompt engineering and discuss its importance in interacting with AI models.
+Prompt engineering is the process of carefully designing the questions or instructions (prompts) given to an AI model to get the best possible response. It's about figuring out how to ask the AI something in a clear and effective way so that it understands what you're looking for.
 
+Importance:
+Better Results: A well-crafted prompt helps the AI give more accurate and relevant answers. If the question is vague or unclear, the response might not be helpful.
+
+Efficiency: Clear prompts save time by reducing the need to ask follow-up questions or clarify.
+
+Guiding the AI: AI models can produce a wide range of responses. Good prompt engineering guides the model to stay focused on what matters most in your query.
+
+Task-specific Performance: Different prompts work better for different tasks (like writing, summarizing, coding, etc.). Tailoring the prompt for the task improves the model’s performance.
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+"Tell me about animals."
+
+This prompt is too broad and lacks focus, making it unclear what kind of information is being requested. The AI could respond with anything from a general overview of animals to details about specific species, habitats, or behaviors. It doesn’t specify what you're really looking for.
+
+Improved Prompt:
+"Can you explain the characteristics of mammals, specifically focusing on their reproductive system?"
+
+Why the Improved Prompt is More Effective:
+Clarity: The improved prompt clearly states the type of animals (mammals) and the specific area of interest (reproductive system), leaving no room for confusion.
+
+Specificity: By focusing on one group of animals and one aspect of their biology, the prompt narrows the response, ensuring the information will be more targeted.
+
+Conciseness: Even though it's more specific, the improved prompt is still concise, making it easy for the AI to process and deliver a focused answer.
